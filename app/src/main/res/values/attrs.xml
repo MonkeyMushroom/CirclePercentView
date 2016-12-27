@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclePercentView" >
+        <attr name="circleBg" format="color"/>
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="percentTextColor" format="color"/>
+        <attr name="percentTextSize" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+</resources>

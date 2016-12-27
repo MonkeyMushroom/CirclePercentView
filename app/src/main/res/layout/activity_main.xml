@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cpv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.monkey.circlepercentview.CirclePercentView
+        android:id="@+id/circlePercentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        cpv:arcColor="#ffee00"
+        cpv:arcWidth="@dimen/activity_horizontal_margin"
+        cpv:circleBg="#8e29fa"
+        cpv:percentTextColor="#ffee00"
+        cpv:percentTextSize="16sp"
+        cpv:radius="100dp" />
+</RelativeLayout>
